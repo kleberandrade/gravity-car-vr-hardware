@@ -28,7 +28,7 @@ Hardware e eletrônica do simulador VR imersivo de carrinho de rolimã.
 
 ## Licença
 
-    Copyright 2018 Fatec Americana
+    Copyright 2018-2019 Fatec Americana
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
