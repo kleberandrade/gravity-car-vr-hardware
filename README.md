@@ -19,6 +19,21 @@ Hardware e eletrônica do simulador VR imersivo de carrinho de rolimã.
   <img src="https://github.com/kleberandrade/gravity-car-vr-hardware/blob/master/Screenshots/esquematico.png" width="800"/>
 </p>
 
+## Configurações do arduino
+
+#### Instalar biblioteca ArduinoJson
+
+*   Abrir o menu Sketch -> Incluir Bibliotecas -> Gerenciar Bibliotecas
+*   Procurar a biblioteca "ArduinoJson"
+*   Instalar a versão 5.13.3
+
+#### Instalar biblioteca OLED
+*   Abrir o menu Sketch -> Incluir Bibliotecas -> Gerenciar Bibliotecas
+*   Procurar a biblioteca "Adafruit GFX Library"
+*   Instalar a versão 1.4.2
+*   Procurar a biblioteca "Adafruit SSD1306"
+*   Instalar a versão 1.2.9
+
 ## Créditos
 *   Guilbert Adalson de Oliveira
 *   Maiara de Carvalho Martins
