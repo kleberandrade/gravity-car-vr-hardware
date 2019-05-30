@@ -8,13 +8,12 @@
 #define PIN_BLUETOOTH_TX  3
 
 #define SERIAL_BAUD_RATE    9600
-#define INTERVAL            5
+#define INTERVAL            10
 
 SoftwareSerial BTSerial(PIN_BLUETOOTH_RX, PIN_BLUETOOTH_TX);
+GravityCar car(PIN_LEFT_BRAKE, PIN_RIGHT_BRAKE, PIN_STEERING_ANGLE);
 
 long previousMillis = 0;
-
-GravityCar car(PIN_LEFT_BRAKE, PIN_RIGHT_BRAKE, PIN_STEERING_ANGLE);
 
 void setup() {
   Serial.begin(SERIAL_BAUD_RATE);
