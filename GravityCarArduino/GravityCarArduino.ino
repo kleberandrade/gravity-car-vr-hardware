@@ -4,10 +4,13 @@
 #define PIN_RIGHT_BRAKE     A3
 #define PIN_STEERING_ANGLE  A2
 
+#define PIN_BLUETOOTH_RX  2
+#define PIN_BLUETOOTH_TX  3
+
 #define SERIAL_BAUD_RATE    9600
 #define INTERVAL            5
 
-SoftwareSerial BTSerial(2, 3); // RX | TX
+SoftwareSerial BTSerial(PIN_BLUETOOTH_RX, PIN_BLUETOOTH_TX);
 
 long previousMillis = 0;
 

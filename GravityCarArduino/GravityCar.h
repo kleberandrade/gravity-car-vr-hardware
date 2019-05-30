@@ -6,15 +6,14 @@
 #include "Arduino.h"
 
 #define JSON_BUFFER_SIZE          64
-#define JSON_LEFT_BRAKE_TAG       "lbrake"
-#define JSON_RIGHT_BRAKE_TAG      "rbrake"
-#define JSON_STEERING_ANGLE_TAG   "sangle"
+#define JSON_LEFT_BRAKE_TAG       "leftBrake"
+#define JSON_RIGHT_BRAKE_TAG      "rightBrake"
+#define JSON_STEERING_ANGLE_TAG   "steerAngle"
 
 class GravityCar {
   public:
     GravityCar(int leftBrakePin, int rightBrakePin, int steeringAnglePin);
 
-    void calibrate();
     void writeSerialJson(SoftwareSerial bluetooth);
 
     int getLeftBrake() const { return analogRead(mLeftBrakePin); }
